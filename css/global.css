@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Barlow Condensed', sans-serif;
+    background-color: #F7F7F7;
+}
+
+nav {
+    background-color: #59B300;
+    height: 50px;
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 20px;
+}
+
+.search {
+    display: flex;
+    align-items: flex-end;
+}
+
+.select-game {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    row-gap: 50px; 
+    margin-top: 50px;
+}
+
+.select-game button {
+  color: #14396A !important;
+  font-size: 16px;
+  width: 50%;
+  text-shadow: 1px 1px 0px #7CACDE;
+  box-shadow: 1px 1px 1px #BEE2F9;
+  padding: 10px 25px;
+  border-radius: 10px;
+  border: 2px solid #3866A3;
+  background: #63B8EE;
+  background: linear-gradient(to top, #63B8EE, #468CCF);
+}
+
+.select-game button:hover {
+    color: #14396A !important;
+    background: #468CCF;
+    background: linear-gradient(to top, #468CCF, #63B8EE);
+  }
