@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;300;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/global.css">
-    <link rel="stylesheet" href="css/add-game.css">
+    <link rel="stylesheet" href="css/start-reg.css">
     <title>Game board</title>
 </head>
 <body>
@@ -18,11 +18,17 @@
             <img class="search" src="images/search_black_24dp.svg" alt="icon search">
         </nav>
     </header>
-    <h1>Add game</h1>
-    <input type="text" name="game name">
+    <h1>Create a play</h1>
+    <section class="new-game">
+        <h2>Player 1</h2>
+        <input type="text" value="Name">
+        <h2>Player 2</h2>
+        <input type="text" value="Name">
+    </section>
+    <button class="add-player" name="add player" type="button">+</button>
     <div>
-        <button>CANCEL</button>
-        <button>OK</button> 
+        <button class="btn btn-cancel" name="cancel" type="button">CANCEL</button>
+        <button class="btn btn-confirm" name="ok" type="button">OK</button>
     </div>
 </body>
 </html>
