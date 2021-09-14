@@ -12,19 +12,16 @@ body {
     font-family: 'Barlow Condensed', sans-serif;
     background-color: #F7F7F7;
 }
-
-nav {
+header {
     background-color: #59B300;
+}
+nav {
     height: 50px;
     padding-top: 10px;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, min-content);
+    justify-content: space-between;
     margin-bottom: 20px;
-}
-
-.search {
-    display: flex;
-    align-items: flex-end;
 }
 
 .select-game {
@@ -54,18 +51,25 @@ nav {
     background: linear-gradient(to top, #468CCF, #63B8EE);
   }
 
+/* Botones */
 .btn {
-    background-color: gray;
+    background-color: #63B8EE;
     color: white;
     border: none;
     padding: .25rem;
     border-radius: .5rem;
 }
-
 .btn.btn-confirm {
    background-color: #59B300;
 }
-
 .btn.btn-cancel {
     background-color: red;
+}
+
+/* Layout */
+.container {
+    padding: 15px;
+    max-width: 500px;
+    margin: 0 auto;
+    min-width: 320px;
 }
