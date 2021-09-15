@@ -1,3 +1,8 @@
+.new-game {
+    display: grid;
+    grid-gap: 1rem;
+    margin-bottom: 1rem;
+}
 .new-play input[type="text"] {
     border: none;
     border-bottom: 1px solid grey;
@@ -5,7 +10,11 @@
     height: 40px;
     font-size: 1rem;
 }
+.options {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+}
 .add-player {
-    background: #59B300;
-    width: 30px;
+    font-size: 2rem;
 }

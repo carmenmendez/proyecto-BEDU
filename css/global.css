@@ -53,17 +53,49 @@ nav {
 
 /* Botones */
 .btn {
-    background-color: #63B8EE;
+    color: #14396A;
+    font-size: 1rem;
+    text-align: center;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    border-width: 2px;
+    border-color:  #3866A3;
+    border-style: solid;
+    background: linear-gradient(to top, #63B8EE, #468CCF);
+}
+.btn:hover{
     color: white;
-    border: none;
-    padding: .25rem;
-    border-radius: .5rem;
+    background: linear-gradient(to top, #468CCF, #63B8EE);
 }
+/* gris */
+.btn.btn-dim {
+    color: #dcdbdb;
+    background: transparent;
+    border-color: #dcdbdb;
+    border-style: dotted;
+    border-width: 3px;
+}
+.btn.btn-dim:hover {
+    color: white;
+    background: #e3e3e3;
+}
+/* verde */
 .btn.btn-confirm {
-   background-color: #59B300;
+    background: linear-gradient(to top, #afee63, #97cd55);
+    border-color:  #97cd55;
 }
+.btn.btn-confirm:hover {
+    background: linear-gradient(to top, #97cd55, #afee63);
+}
+/* rojo */
 .btn.btn-cancel {
-    background-color: red;
+    color: white;
+    background: linear-gradient(to top, #d71010, #930d0d);
+    border-color:  #930d0d;
+}
+.btn.btn-cancel:hover{
+    background: linear-gradient(to top, #930d0d, #d71010 );
 }
 
 /* Layout */
