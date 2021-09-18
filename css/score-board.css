@@ -1,0 +1,10 @@
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, min-content);
+    gap: 3rem;
+    margin-left: 15rem;
+} 
+aside {
+    display: grid;
+    gap: 1rem;
+}
