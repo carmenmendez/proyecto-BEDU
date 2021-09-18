@@ -16,18 +16,19 @@
         <img class="logo" src="images/casino_black_24dp.svg" alt="logo">
         <h1>Login</h1>
         <!-- TODO: remove action -->
-        <form action="/index.html">
+        <form id="login-form">
             <!--USERNAME-->
             <label for="email">Email</label>
-            <input type="text" placeholder="Enter Email">
+            <input type="text" name="email" placeholder="Enter Email">
             <!--PASSWORD-->
             <label for="password">Password</label>
-            <input type="password" placeholder="Enter Password">
+            <input type="password" name="password" placeholder="Enter Password">
             <input type="submit" value="Log In">
 
             <a href="#">Lost your password?</a>
             <a href="#">Don't have an account?</a>
         </form>
     </div>
+    <script src="js/login.js"></script>
 </body>
 </html>
